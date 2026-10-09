@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Insert Employee</title>
+
+<style>
+
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+.Detail {
+    width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="Detail">
+
+<h1>Insert Record Form:</h1>
+
+<form action="process.jsp" method="POST">
+
+First Name:
+<input type="text" name="firstnameForm" placeholder="Enter First Name">
+
+<br><br>
+
+Last Name:
+<input type="text" name="lastnameForm" placeholder="Enter Last Name">
+
+<br><br>
+
+Age:
+<input type="number" name="ageForm" placeholder="Enter Age">
+
+<br><br>
+
+Phone Number:
+<input type="text" name="phonenumberForm" placeholder="Enter Phone Number">
+
+<br><br> 
+
+Join Date:
+<input type="date" name="joinDateForm">
+
+<br><br>
+
+Department:
+<input type="text" name="departmentForm" placeholder="Enter Department">
+
+<br><br>
+
+<input type="submit" value="Insert">
+
+</form>
+
+</div>
+
+</body>
+
+</html>
